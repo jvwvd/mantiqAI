@@ -1,20 +1,29 @@
-# MantiqAI
+﻿# MantiqAI
 
-MantiqAI is an AI-assisted agent designed for authorized educational challenge environments.
+MantiqAI is an AI-assisted agent for authorized educational cybersecurity challenges, CTF competitions, and explicitly scoped lab environments.
 
 ## Overview
 
-MantiqAI uses structured instructions, category routing, external tools, and an isolated Docker environment to help analyze challenges efficiently.
+MantiqAI combines structured agent instructions, challenge-category routing, reusable CTF skills, and an isolated Docker environment to support a more organized challenge-solving workflow.
 
-## Project Files
+## Key Components
 
-- `AGENTS.md` — general agent instructions
-- `CHALLENGE_ROUTER.md` — challenge category routing
-- `SETUP.md` — setup instructions
-- `sandbox-setup/` — isolated environment configuration
+- **`AGENTS.md`** — General agent behavior, problem-solving guidelines, and verification rules.
+- **`CHALLENGE_ROUTER.md`** — Category-specific workflows and tool guidance.
+- **`pi-skills/`** — Reusable CTF skills and cybersecurity reference material.
+- **`sandbox-setup/`** — Docker configuration for an isolated analysis environment.
+- **`SETUP.md`** — Installation, configuration, and security guidance.
+
+## Approach
+
+MantiqAI prioritizes focused problem-solving, evidence-based analysis, and verification against the current challenge instance. It solves directly by default and uses additional agents when they provide a clear benefit.
+
+## Getting Started
+
+See [`SETUP.md`](SETUP.md) for installation and configuration instructions.
 
 ## Safety
 
-MantiqAI is intended only for authorized educational environments.
+MantiqAI is intended for authorized competitions, educational labs, and explicitly scoped environments. Do not use it against systems or services without permission.
 
-Do not use it against systems or services without permission.
+Review third-party skills and dependencies before use, and never commit private credentials or configuration files.
